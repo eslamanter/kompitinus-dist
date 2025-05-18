@@ -98,7 +98,8 @@ I dettagli modificabili nel **pannello dei dettagli del compito** riguardano:
 
 ## 🏷 Barra dei comandi (in alto)
 - **Utente > Dati Utente** → Visualizza e modifica i dati utente (nome, cognome, email, PIN)
-  - L'indirizzo email modificato **non deve coincidere con un altro già registrato**
+  - L'indirizzo email modificato **non deve coincidere con un altro già registrato**.
+  
 - **Esporta > Contrassegnati** → Genera report Excel (`report.xlsx`) contenente:
   - **ID del compito**
   - **Ultima modifica**
@@ -108,12 +109,12 @@ I dettagli modificabili nel **pannello dei dettagli del compito** riguardano:
   - **Data e ora di scadenza**
   - **Ritardo in giorni**
 
-   📊 Esportazione Excel  
-    - Il **foglio Excel** viene esportato nella stessa cartella dell'applicazione con il nome `report.xlsx`.
-    - Al foglio esportato viene aggiunta **una pagina** nominata con la **data e l'ora** ogni volta che viene eseguito il comando.
-    - Se il **file Excel è aperto**, **non** è possibile aggiungere una nuova pagina, quindi l'esportazione non verrà eseguita finché il file non verrà chiuso.  
+- **Info > App, Guida** → Informazioni sull'applicazione e guida utente.
 
-- **Info > App, Guida** → Informazioni sull'applicazione e guida utente
+### 📊 Esportazione Excel
+- Il **foglio Excel** viene esportato nella stessa cartella dell'applicazione con il nome `report.xlsx`.  
+- Al foglio esportato viene aggiunta **una pagina** nominata con la **data e l'ora** ogni volta che viene eseguito il comando.  
+- Se il **file Excel è aperto**, **non** è possibile aggiungere una nuova pagina, quindi l'esportazione **non** verrà eseguita finché il file non verrà chiuso.  
 
 ## 📌 Barra di stato (in basso)
 - Mostra le azioni su testo: selezionato, copiato, incollato o cancellato
