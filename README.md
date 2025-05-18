@@ -13,94 +13,97 @@ Grazie a un **database locale condiviso**, puoi inviare e ricevere compiti perso
 ## ℹ️ Come si usa?
 Al primo avvio dell'applicazione ti verrà chiesto di:
 - Definire il percorso del database di riferimento selezionando:
-  - Il file del database, se esiste già uno,
-  - oppure, in caso contrario, la cartella del nuovo database da creare nuovo.
-- Le credenziali di accesso se sei già registrato oppure i dati per registrarti come nuovo utente.
+  - Il file del database, se ne esiste già uno,
+  - Oppure, in caso contrario, la cartella in cui creare il nuovo database.
+- Inserire le credenziali di accesso, se sei già registrato, oppure i dati per registrarti come nuovo utente.
 
-A conclusione della definizione del percorso e l'accesso viene creato un file di configurazione nominato config.json utile per ricordare l'accesso senza la necessità ri ripetere l'accesso nelle successive volte.
+Dopo la configurazione del percorso e l'accesso, viene creato un file di configurazione **config.json**, utile per mantenere l'accesso senza la necessità di reinserire le credenziali nei successivi avvii.
 
-L'interfaccia principale è divisa verticalmente in tre sezioni così divise:
-- Gestione corrispondenza:
-  - Seleziona per visualizzare il riepilogo della corrispondenza dei compiti personali oppure i compiti assegnati agli utenti registrati.
-    - Le corrispondenze personali sono divise in:
-       - Inbox, per tutti i compiti ricevuti, 
-       - Outbox, per tutti i compiti inviati.
-         entrambi ulteriormente possono essere filtrati in:
-           - Contrassegnati, per i compiti contrassegnati, 
-           - Scaduti, per i compiti, in quel momento risultano, scaduti.
-    - Le corrispondenze degli altri utenti relativamente ai compiti contrassegnati ricevuti.
-  - Doppia clicca sul nome dell'utente al quale vuoi inviare un nuovo compito inserendo successivamente i dati del compito nel pannello dei dettagli del compito.
-    
-- Riepilogo compiti:
-  - Visualizza l'elenco dei compiti realtivi alla corrispondenza scelta.
-  - Dalla tabella puoi selezionare il compito da visualizzare o modificare nel pannello dei dettagli del compito.
-  - I dati dei compiti rappresentati sono relative alle seguenti colonne:
-    ID del compito,
-    la data e l'ora dell'ultima modifica,
-    il nome e il cognome dell'utente responsabile,
-    il nome e il cognome dell'utente incaricato,
-    il titolo del compito,
-    la data e l'ora della scadenza,
-    le note sullo stato del compito.
-  
-  - I compiti visualizzati sono, in generale, ordinati in base al tempo dell'ultima modifica, dal più recente al più lontano.
-  - I compiti scaduti sono, invece, ordinati in base al tempo di scadenza dal più lontano al più recente.
- 
-  - I compiti rappresentati vengono rappresentati con sfondo colorato in base allo stato del compito come segue:
-    - Grigio: Archiviato,
-    - Blu: Fatto,
-    - Rosso: Scaduto & Contrassegnato,
-    - Arancione: Scaduto,
-    - Verde: In progress.
-      
-      - Lo stato del compito viene rappresentato nella colonna note.
-      - Da specificare che per un compito, quando risulta contemporaneamente in due stati (es. fatto e archiviato) viene associato al colore di ordine superiore tra quelli precedentemente elencati.
-      
-- Pannello dettagli:
-  - Contiene i dettagli del compito selezionato oppure da compilare per l'invio relativamente a:
-    - Titolo del compito (max 160 caratteri), descrizione, riferimento locale (es. percorso cartella) o esterno (es. link web), data e ora di scadenza, data e ora prevista dal utente incaricato per svolgere il compito e la sua risposta.
-      - Nel tasto (...) a destra del riferimento è possibile:
-          - Selezionare cartella: per aprire il dialogo per selezionare una cartella,
-          - Copiare link: per copiare il link già aggiunto come riferimento,
-          - Incollare link: per incollare un testo da appunti,
-          - Cancellare link: per cancellare un testo già aggiunto come riferimento.
-    
-    - Inoltre, sono disponibili tre caselle con la possibilità di spuntare, relativi a:
-      - Contrasseganto: per permettere agli altri di consultare il titolo e la scadenza
-      - Archiviato: per nascondere agli altri, incluso l'utente incaricato del compito
-      - Fatto: per segnare il completamento del compito
-  - Inserisci, visualizza e modifica i dettagli del compito selezionato relativamente alla parte di competenza dell'utente.
-    - I dettagli modificabili nel pannello dei detagli del compito sono relativi:
-      - all'impostare la data e l'ora prevista per il completamento con la possibilità di spuntare il completamento del compito e, eventualmente, lasciare una risposta al responsabile.
-      - all'inserimento, obbligatoriamente, del titolo, la descrizione, la data e l'ora di scadenza per il completamento del compito con la possibilità di contrassegnare o archiviare il compito ove vi è necassario.
-        - I dettagli modificabili per i compiti da inviare nuovi sono gli stessi di quelli già inviati, tranne, l'aggiunta della possibilità di impostare la data e l'ora prevista per il completamento come suggerimento per l'utente che deve ricevere il compito.
-          Inoltre, per i compiti da inviare vengono di default selezionate la data e l'ora del mezzogiorno lavorativo successivo.
-    - Tutti i dettagli del compito possono essere aggiornati in qualsiasi momento, ogni parte dal suo competente.
-    - La data e l'ora impostata per la scadenza o prevista per il completamento verranno evidenziati in rosso se:
-      - La data risulta nei giorni di sabato, domenica o festivi nazionali.
-      - L'ora risulta fuori dagli orari lavorativi aziendali (dalle ore 09:00 alle ore 18:59).
+## 🖥 Struttura dell'interfaccia
+L'interfaccia principale è suddivisa in tre sezioni verticali:
 
-Nel lato superiore della finestra principale, nella barra dei comandi, sono disponibili i comandi:
+### 1️⃣ Gestione corrispondenza
+- Seleziona per visualizzare il riepilogo della corrispondenza dei tuoi compiti personali o dei compiti assegnati agli utenti registrati.
+- Le corrispondenze personali sono suddivise in:
+  - **Inbox** → Compiti ricevuti
+  - **Outbox** → Compiti inviati
+  - Entrambe le sezioni possono essere filtrate in:
+    - **Contrassegnati** → Compiti contrassegnati
+    - **Scaduti** → Compiti che risultano scaduti
+- Visualizzazione delle corrispondenze relative ai compiti contrassegnati ricevuti dagli altri utenti.
+- **Doppio clic** sul nome dell'utente destinatario per inviare un nuovo compito, compilando successivamente i dettagli nel pannello apposito.
 
-- Utente > Dati Utente: per visualizzare i dati dell'utente relativi a: nome, cognome, email e PIN con la possibilità di modificarli o eventualmente di uscire, eliminando la configurazione dell'utente presente nella cartella dell'applicazione.
-  - L'indirizzo email modificato non deve coincidere con un altro indirizzo già registrato.
-- Esporta > Contrassegnati: per esportare un report riepilogativo in fogli Excel di tutti i compiti contrassegnati includendo:
-    ID del compito,
-    la data e l'ora dell'ultima modifica,
-    il nome e il cognome dell'utente responsabile,
-    il nome e il cognome dell'utente incaricato,
-    il titolo del compito,
-    la data e l'ora della scadenza,
-    il ritardo in giorni
-      - Il foglio Excel viene esportato nella stessa cartella dell'applicazione con il nome report.xlsx
-      - Al foglio esportato viene aggiunta una pagina nominata con la data e l'ora ogni volta viene eseguito il comando.
-      - Una nuova pagina di Excel non può essere aggiunta al foglio se risulta aperto per cui non viene eseguito il comando di esportazione finchè non si chiude il file.
-  
-- Info > App, Guida: per le informazioni sull'applicazione e la guida.
+### 2️⃣ Riepilogo compiti
+- Visualizza l'elenco dei compiti associati alla corrispondenza selezionata.
+- Dalla tabella puoi scegliere un compito da visualizzare o modificare nel **Pannello dettagli**.
+- I dati dei compiti includono le seguenti colonne:
+  - **ID del compito**
+  - **Data e ora dell'ultima modifica**
+  - **Nome e cognome dell'utente responsabile**
+  - **Nome e cognome dell'utente incaricato**
+  - **Titolo del compito**
+  - **Data e ora di scadenza**
+  - **Note sullo stato del compito**
 
-Nel lato inferiore della finestra principale, nella barra dello stato, viene rappresentato:
-- il testo selezionato, copiato, incollato o cancellato del riferimento.
-- il successo della creazione o della modifica effettuata al compito indicando l'ID relativo.
+#### 📌 Ordinamento dei compiti:
+- Generalmente, i compiti sono ordinati in base alla data dell'ultima modifica (dal più recente al più lontano).
+- I compiti **scaduti** vengono invece ordinati per data di scadenza (dal più lontano al più recente).
+
+#### 🎨 Colorazione dello stato del compito:
+- **Grigio** → Archiviato
+- **Blu** → Completato
+- **Rosso** → Scaduto & Contrassegnato
+- **Arancione** → Scaduto
+- **Verde** → In progress
+
+- Lo stato del compito è indicato anche nella colonna **Note**.
+- Se un compito è in più stati contemporaneamente (es. completato e archiviato), viene associato al colore di priorità superiore.
+
+### 3️⃣ Pannello dettagli
+Contiene le informazioni del compito selezionato oppure da compilare per l'invio:
+- **Titolo** (max 160 caratteri)
+- **Descrizione**
+- **Riferimento locale** (es. percorso cartella) o **riferimento esterno** (es. link web)
+- **Data e ora di scadenza**
+- **Data e ora prevista dall'utente incaricato per lo svolgimento del compito**
+- **Risposta dell'utente incaricato**
+
+#### 🛠 Opzioni disponibili nel tasto `(...)` accanto al riferimento:
+- **Seleziona cartella** → Apri dialogo di selezione
+- **Copia link** → Copia il riferimento
+- **Incolla link** → Incolla un testo dagli appunti
+- **Cancella link** → Rimuovi il riferimento
+
+#### ✅ Caselle di selezione disponibili:
+- **Contrassegnato** → Permette agli altri di consultare titolo e scadenza
+- **Archiviato** → Nasconde il compito agli altri, incluso l'utente incaricato
+- **Fatto** → Segna il completamento del compito
+
+- I dettagli modificabili per un compito inviato sono gli stessi di quelli già ricevuti, **con l'aggiunta** della possibilità di impostare la data e l'ora prevista per il completamento come suggerimento.
+- Per i compiti inviati, **di default viene impostata la data e l'ora del mezzogiorno lavorativo successivo**.
+
+#### 🔄 Aggiornamento dettagli:
+- Tutti i dettagli possono essere aggiornati in qualsiasi momento, in base alle competenze dell'utente.
+- La **data e l'ora di scadenza** o di completamento prevista verranno evidenziate in **rosso** se:
+  - Il giorno cade di **sabato, domenica o festivo nazionale**
+  - L'orario è **fuori dagli orari lavorativi aziendali** (9:00 - 18:59)
+
+## 🏷 Barra dei comandi (in alto)
+- **Utente > Dati Utente** → Visualizza e modifica i dati utente (nome, cognome, email, PIN)
+  - L'indirizzo email modificato **non deve coincidere con un altro già registrato**
+- **Esporta > Contrassegnati** → Genera report Excel (`report.xlsx`) contenente:
+  - **ID del compito**
+  - **Ultima modifica**
+  - **Nome e cognome del responsabile**
+  - **Nome e cognome dell'incaricato**
+  - **Titolo del compito**
+  - **Data e ora di scadenza**
+  - **Ritardo in giorni**
+- **Info > App, Guida** → Informazioni sull'applicazione e guida utente
+
+## 📌 Barra di stato (in basso)
+- Mostra le azioni su testo: selezionato, copiato, incollato o cancellato
+- Indica il successo della creazione o modifica di un compito, mostrando l'ID relativo
 
 ## ⚠️ Avviso
 🔹 Questo software gestisce un **database aperto**, il che significa che potrebbe essere soggetto a **modifiche esterne o danneggiamenti**.  
