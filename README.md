@@ -107,6 +107,13 @@ I dettagli modificabili nel **pannello dei dettagli del compito** riguardano:
   - **Titolo del compito**
   - **Data e ora di scadenza**
   - **Ritardo in giorni**
+
+### 📊 Esportazione Excel  
+
+- Il **foglio Excel** viene esportato nella stessa cartella dell'applicazione con il nome `report.xlsx`.  
+- Al foglio esportato viene aggiunta **una pagina** nominata con la **data e l'ora** ogni volta che viene eseguito il comando.  
+- Se il **file Excel è aperto**, **non** è possibile aggiungere una nuova pagina, quindi l'esportazione non verrà eseguita finché il file non verrà chiuso.  
+
 - **Info > App, Guida** → Informazioni sull'applicazione e guida utente
 
 ## 📌 Barra di stato (in basso)
