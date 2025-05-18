@@ -79,8 +79,16 @@ Contiene le informazioni del compito selezionato oppure da compilare per l'invio
 - **Archiviato** → Nasconde il compito agli altri, incluso l'utente incaricato
 - **Fatto** → Segna il completamento del compito
 
-- I dettagli modificabili per un compito inviato sono gli stessi di quelli già ricevuti, **con l'aggiunta** della possibilità di impostare la data e l'ora prevista per il completamento come suggerimento.
-- Per i compiti inviati, **di default viene impostata la data e l'ora del mezzogiorno lavorativo successivo**.
+### 🔧 Modifica dettagli del compito  
+
+I dettagli modificabili nel **pannello dei dettagli del compito** riguardano:  
+
+- **Per i compiti ricevuti** → Impostazione della data e dell'ora prevista per il completamento, con la possibilità di spuntare il completamento del compito e, eventualmente, lasciare una risposta al responsabile.  
+
+- **Per i compiti inviati** → Inserimento obbligatorio del titolo, della descrizione, della data e dell'ora di scadenza per il completamento del compito, con la possibilità di **contrassegnarlo** o **archiviarlo**, ove necessario.  
+
+- I dettagli modificabili per i compiti da inviare nuovi sono gli stessi di quelli già inviati, **ad eccezione** della possibilità di impostare la data e l'ora prevista per il completamento come suggerimento per l'utente destinatario.
+- Per i compiti da inviare, **di default viene impostata la data e l'ora del mezzogiorno lavorativo successivo**.
 
 #### 🔄 Aggiornamento dettagli:
 - Tutti i dettagli possono essere aggiornati in qualsiasi momento, in base alle competenze dell'utente.
