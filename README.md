@@ -5,10 +5,10 @@
 Grazie a un **database locale condiviso**, puoi inviare e ricevere compiti personali e monitorare i compiti degli altri in **trasparenza**.  
 
 ## ✨ Funzionalità
-✅ **Gestione dei compiti**: Invia, ricevi, visualizza e aggiorna i compiti personali che hai assegnato o che ti sono stati assegnati.
-✅ **Priorità e scadenze**: Controlla le date di scadenza e gestisci le priorità con facilità.
+✅ **Gestione dei compiti**: Invia, ricevi, visualizza e aggiorna i compiti personali che hai assegnato o che ti sono stati assegnati.  
+✅ **Priorità e scadenze**: Controlla le date di scadenza e gestisci le priorità con facilità.  
 ✅ **Consultazione rapida**: Gli utenti possono vedere il titolo e la scadenza dei compiti assegnati agli altri, se resi consultabili.  
-✅ **Esportazione dei report**: Crea riepiloghi di tutti i compiti contrassegnati ed esportali facilmente in qualsiasi momento.
+✅ **Esportazione dei report**: Crea riepiloghi di tutti i compiti contrassegnati ed esportali facilmente in qualsiasi momento.  
 
 ## ℹ️ Come si usa?
 Al primo avvio dell'applicazione ti verrà chiesto di:
@@ -108,11 +108,10 @@ I dettagli modificabili nel **pannello dei dettagli del compito** riguardano:
   - **Data e ora di scadenza**
   - **Ritardo in giorni**
 
-#### 📊 Esportazione Excel  
-
-  - Il **foglio Excel** viene esportato nella stessa cartella dell'applicazione con il nome `report.xlsx`.
-  - Al foglio esportato viene aggiunta **una pagina** nominata con la **data e l'ora** ogni volta che viene eseguito il comando.
-  - Se il **file Excel è aperto**, **non** è possibile aggiungere una nuova pagina, quindi l'esportazione non verrà eseguita finché il file non verrà chiuso.  
+   📊 Esportazione Excel  
+    - Il **foglio Excel** viene esportato nella stessa cartella dell'applicazione con il nome `report.xlsx`.
+    - Al foglio esportato viene aggiunta **una pagina** nominata con la **data e l'ora** ogni volta che viene eseguito il comando.
+    - Se il **file Excel è aperto**, **non** è possibile aggiungere una nuova pagina, quindi l'esportazione non verrà eseguita finché il file non verrà chiuso.  
 
 - **Info > App, Guida** → Informazioni sull'applicazione e guida utente
 
@@ -120,11 +119,12 @@ I dettagli modificabili nel **pannello dei dettagli del compito** riguardano:
 - Mostra le azioni su testo: selezionato, copiato, incollato o cancellato
 - Indica il successo della creazione o modifica di un compito, mostrando l'ID relativo
 
-## ⚠️ Avviso
-🔹 Questo software gestisce un **database aperto**, il che significa che potrebbe essere soggetto a **modifiche esterne o danneggiamenti**.  
-🔹 Alcuni compiti non contrassegnati potrebbero **non essere visibili** agli altri utenti.  
-🔹 Si consiglia **di non condividere informazioni sensibili o riservate**.  
-🔹 Il software è fornito **senza alcuna garanzia** di prestazioni o risultati.  
+## ⚠️ Avviso  
+🔹 Questo software gestisce un **database aperto**, esponendolo al rischio di **modifiche esterne** o **danneggiamenti**.  
+🔹 Si consiglia di **non condividere** informazioni sensibili o riservate.  
+🔹 Il software è fornito **senza alcuna garanzia** di prestazioni, affidabilità o risultati.  
 
-## 💡 Aiuto?
-Per domande o supporto, contatta eslam.anter@outlook.com  
+## 💡 Aiuto?  
+Per suggerimenti, domande o supporto, contatta **eslam.anter@outlook.com**  
+Oppure visita il **repository dell'applicazione**: [GitHub - Kompitinus-ita](https://github.com/eslamanter/kompitinus-ita/)  
+
