@@ -30,14 +30,30 @@ L'interfaccia principale è divisa verticalmente in tre sezioni così divise:
   - Doppia clicca sul nome dell'utente al quale vuoi inviare un nuovo compito inserendo successivamente i dati del compito nel pannello dei dettagli del compito.
     
 - Riepilogo compiti:
-  - Visualizza i compiti realtivi alla corrispondenza scelta.
+  - Visualizza l'elenco dei compiti realtivi alla corrispondenza scelta.
   - Dalla tabella puoi selezionare il compito da visualizzare o modificare nel pannello dei dettagli del compito.
   - I dati dei compiti rappresentati sono relative alle seguenti colonne:
-    ID del compito, data e ora dell'ultima modifica, nome dell'utente responsabile, nome dell'utente incaricato, titolo del compito, data e ora della scadenza, note.
+    ID del compito,
+    la data e l'ora dell'ultima modifica,
+    il nome e il cognome dell'utente responsabile,
+    il nome e il cognome dell'utente incaricato,
+    il titolo del compito,
+    la data e l'ora della scadenza,
+    le note sullo stato del compito.
   
   - I compiti visualizzati sono, in generale, ordinati in base al tempo dell'ultima modifica, dal più recente al più lontano.
   - I compiti scaduti sono, invece, ordinati in base al tempo di scadenza dal più lontano al più recente.
-
+ 
+  - I compiti rappresentati vengono rappresentati con sfondo colorato in base allo stato del compito come segue:
+    - Grigio: Archiviato,
+    - Blu: Fatto,
+    - Rosso: Scaduto & Contrassegnato,
+    - Arancione: Scaduto,
+    - Verde: In progress.
+      
+      - Lo stato del compito viene rappresentato nella colonna note.
+      - Da specificare che per un compito, quando risulta contemporaneamente in due stati (es. fatto e archiviato) viene associato al colore di ordine superiore tra quelli precedentemente elencati.
+      
 - Pannello dettagli:
   - Contiene i dettagli del compito selezionato oppure da compilare per l'invio relativamente a:
     - Titolo del compito (max 160 caratteri), descrizione, riferimento locale (es. percorso cartella) o esterno (es. link web), data e ora di scadenza, data e ora prevista dal utente incaricato per svolgere il compito e la sua risposta.
@@ -50,11 +66,29 @@ L'interfaccia principale è divisa verticalmente in tre sezioni così divise:
       - all'impostare la data e l'ora prevista per il completamento con la possibilità di spuntare il completamento del compito e, eventualmente, lasciare una risposta al responsabile.
       - all'inserimento, obbligatoriamente, del titolo, la descrizione, la data e l'ora di scadenza per il completamento del compito con la possibilità di contrassegnare o archiviare il compito ove vi è necassario.
         - I dettagli modificabili per i compiti da inviare nuovi sono gli stessi di quelli già inviati, tranne, l'aggiunta della possibilità di impostare la data e l'ora prevista per il completamento come suggerimento per l'utente che deve ricevere il compito.
+          Inoltre, per i compiti da inviare vengono di default selezionate la data e l'ora del mezzogiorno lavorativo successivo.
     - Tutti i dettagli del compito possono essere aggiornati in qualsiasi momento, ogni parte dal suo competente.
-    - La data e l'ora impostata per la scadenza o prevista per il completamento vengono evidenziati in rosso se:
+    - La data e l'ora impostata per la scadenza o prevista per il completamento verranno evidenziati in rosso se:
       - La data risulta nei giorni di sabato, domenica o festivi nazionali.
-      - L'ora risulta fuori dagli orari lavorativi aziendali dalle 09:00 alle 18:59
-    
+      - L'ora risulta fuori dagli orari lavorativi aziendali (dalle ore 09:00 alle ore 18:59).
+
+Nel lato superiore della finestra, sono disponibili i comandi:
+- Utente > Dati Utente: per visualizzare i dati dell'utente relativi a: nome, cognome, email e PIN e, eventualmente, per modificarli.
+  - L'indirizzo email modificato non deve coincidere con un altro indirizzo già registrato.
+- Esporta > Contrassegnati: per esportare un report riepilogativo in fogli Excel (.xlsx) di tutti i compiti contrassegnati includendo:
+    ID del compito,
+    la data e l'ora dell'ultima modifica,
+    il nome e il cognome dell'utente responsabile,
+    il nome e il cognome dell'utente incaricato,
+    il titolo del compito,
+    la data e l'ora della scadenza,
+    il ritardo in giorni
+      - Il foglio Excel viene esportato nella stessa cartella dell'applicazione con il nome report.xlsx
+      - Al foglio esportato viene aggiunta una pagina nominata con la data e l'ora ogni volta viene eseguito il comando.
+      - Una nuova pagina di Excel non può essere aggiunta al foglio se risulta aperto per cui non viene eseguito il comando di esportazione finchè non si chiude il file.
+  
+- Info > App, Guida: per le informazioni sull'applicazione e la guida.
+
 ## ⚠️ Avviso
 🔹 Questo software gestisce un **database aperto**, il che significa che potrebbe essere soggetto a **modifiche esterne o danneggiamenti**.  
 🔹 Alcuni compiti non contrassegnati potrebbero **non essere visibili** agli altri utenti.  
