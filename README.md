@@ -127,5 +127,5 @@ I dettagli modificabili nel **pannello dei dettagli del compito** riguardano:
 
 ## 💡 Aiuto?  
 Per suggerimenti, domande o supporto, contatta **eslam.anter@outlook.com**  
-Oppure visita il **repository dell'applicazione**: [GitHub - Kompitinus-ita](https://github.com/eslamanter/kompitinus-ita/)  
+Visita il **repository dell'applicazione**: [GitHub - kompitinus-ita](https://github.com/eslamanter/kompitinus-ita/)  
 
