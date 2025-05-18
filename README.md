@@ -17,6 +17,8 @@ Al primo avvio dell'applicazione ti verrà chiesto di:
   - oppure, in caso contrario, la cartella del nuovo database da creare nuovo.
 - Le credenziali di accesso se sei già registrato oppure i dati per registrarti come nuovo utente.
 
+A conclusione della definizione del percorso e l'accesso viene creato un file di configurazione nominato config.json utile per ricordare l'accesso senza la necessità ri ripetere l'accesso nelle successive volte.
+
 L'interfaccia principale è divisa verticalmente in tre sezioni così divise:
 - Gestione corrispondenza:
   - Seleziona per visualizzare il riepilogo della corrispondenza dei compiti personali oppure i compiti assegnati agli utenti registrati.
@@ -57,6 +59,12 @@ L'interfaccia principale è divisa verticalmente in tre sezioni così divise:
 - Pannello dettagli:
   - Contiene i dettagli del compito selezionato oppure da compilare per l'invio relativamente a:
     - Titolo del compito (max 160 caratteri), descrizione, riferimento locale (es. percorso cartella) o esterno (es. link web), data e ora di scadenza, data e ora prevista dal utente incaricato per svolgere il compito e la sua risposta.
+      - Nel tasto (...) a destra del riferimento è possibile:
+          - Selezionare cartella: per aprire il dialogo per selezionare una cartella,
+          - Copiare link: per copiare il link già aggiunto come riferimento,
+          - Incollare link: per incollare un testo da appunti,
+          - Cancellare link: per cancellare un testo già aggiunto come riferimento.
+    
     - Inoltre, sono disponibili tre caselle con la possibilità di spuntare, relativi a:
       - Contrasseganto: per permettere agli altri di consultare il titolo e la scadenza
       - Archiviato: per nascondere agli altri, incluso l'utente incaricato del compito
@@ -72,10 +80,11 @@ L'interfaccia principale è divisa verticalmente in tre sezioni così divise:
       - La data risulta nei giorni di sabato, domenica o festivi nazionali.
       - L'ora risulta fuori dagli orari lavorativi aziendali (dalle ore 09:00 alle ore 18:59).
 
-Nel lato superiore della finestra, sono disponibili i comandi:
-- Utente > Dati Utente: per visualizzare i dati dell'utente relativi a: nome, cognome, email e PIN e, eventualmente, per modificarli.
+Nel lato superiore della finestra principale, nella barra dei comandi, sono disponibili i comandi:
+
+- Utente > Dati Utente: per visualizzare i dati dell'utente relativi a: nome, cognome, email e PIN con la possibilità di modificarli o eventualmente di uscire, eliminando la configurazione dell'utente presente nella cartella dell'applicazione.
   - L'indirizzo email modificato non deve coincidere con un altro indirizzo già registrato.
-- Esporta > Contrassegnati: per esportare un report riepilogativo in fogli Excel (.xlsx) di tutti i compiti contrassegnati includendo:
+- Esporta > Contrassegnati: per esportare un report riepilogativo in fogli Excel di tutti i compiti contrassegnati includendo:
     ID del compito,
     la data e l'ora dell'ultima modifica,
     il nome e il cognome dell'utente responsabile,
@@ -88,6 +97,10 @@ Nel lato superiore della finestra, sono disponibili i comandi:
       - Una nuova pagina di Excel non può essere aggiunta al foglio se risulta aperto per cui non viene eseguito il comando di esportazione finchè non si chiude il file.
   
 - Info > App, Guida: per le informazioni sull'applicazione e la guida.
+
+Nel lato inferiore della finestra principale, nella barra dello stato, viene rappresentato:
+- il testo selezionato, copiato, incollato o cancellato del riferimento.
+- il successo della creazione o della modifica effettuata al compito indicando l'ID relativo.
 
 ## ⚠️ Avviso
 🔹 Questo software gestisce un **database aperto**, il che significa che potrebbe essere soggetto a **modifiche esterne o danneggiamenti**.  
