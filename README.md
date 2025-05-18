@@ -25,11 +25,11 @@ L'interfaccia principale è suddivisa in tre sezioni verticali:
 ### 1️⃣ Gestione corrispondenza
 - Seleziona per visualizzare il riepilogo della corrispondenza dei tuoi compiti personali o dei compiti assegnati agli utenti registrati.
 - Le corrispondenze personali sono suddivise in:
-  - **Inbox** → Compiti ricevuti
+  - **Inbox** → Compiti ricevuti ad eccezione di quelli archiviati
   - **Outbox** → Compiti inviati
   - Entrambe le sezioni possono essere filtrate in:
-    - **Contrassegnati** → Compiti contrassegnati
-    - **Scaduti** → Compiti che risultano scaduti
+    - **Contrassegnati** → Compiti contrassegnati ad eccezione di quelli archiviati
+    - **Scaduti** → Compiti che risultano scaduti ad eccezione di quelli archiviati o fatti
 - Visualizzazione delle corrispondenze relative ai compiti contrassegnati ricevuti dagli altri utenti.
 - **Doppio clic** sul nome dell'utente destinatario per inviare un nuovo compito, compilando successivamente i dettagli nel pannello apposito.
 
