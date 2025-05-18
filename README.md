@@ -51,7 +51,7 @@ L'interfaccia principale è suddivisa in tre sezioni verticali:
 
 #### 🎨 Colorazione dello stato del compito:
 - **Grigio** → Archiviato
-- **Blu** → Completato
+- **Blu** → Fatto
 - **Rosso** → Scaduto & Contrassegnato
 - **Arancione** → Scaduto
 - **Verde** → In progress
