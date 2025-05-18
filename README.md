@@ -63,9 +63,9 @@ L'interfaccia principale è suddivisa in tre sezioni verticali:
 Contiene le informazioni del compito selezionato oppure da compilare per l'invio:
 - **Titolo** (max 160 caratteri)
 - **Descrizione**
-- **Riferimento** locale (es. percorso cartella) o riferimento esterno (es. link web)
-- **Data e ora di scadenza** impostata dal responsabile
-- **Data e ora di prevista** dall'utente incaricato per il completamento del compito
+- **Riferimento** locale (es. percorso cartella) o esterno (es. link web)
+- **Data di scadenza** impostata dal responsabile
+- **Data prevista** dall'utente incaricato per il completamento del compito
 - **Risposta** dell'utente incaricato
 
 #### 🛠 Opzioni disponibili nel tasto `(...)` accanto al riferimento:
