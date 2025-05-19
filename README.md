@@ -1,8 +1,7 @@
 # Kompitìnus
 
 ## 📌 Cos'è?
-È una applicazione per organizzare e gestire i compiti lavorativi in modo semplice ed efficace.  
-Grazie a un **database locale condiviso**, puoi inviare e ricevere compiti personali e monitorare i compiti degli altri in **trasparenza**.  
+Questa applicazione crea e gestisce un **database locale condiviso**, offrendo un'interfaccia per **organizzare**, **analizzare** e **condividere** i **compiti lavorativi** con **trasparenza**, nel rispetto delle regole aziendali. Permette di impostare **priorità** con **scadenze flessibili**, indicando i giorni mancanti o scaduti. Gli utenti autenticati possono consultare **il titolo** e **la scadenza** dei compiti assegnati agli altri, con la possibilità di **esportare report** riepilogativi dei compiti contrassegnati.  
 
 ## ✨ Funzionalità
 ✅ **Gestione dei compiti**: Invia, ricevi, visualizza e aggiorna i compiti personali che hai assegnato o che ti sono stati assegnati.  
@@ -12,15 +11,16 @@ Grazie a un **database locale condiviso**, puoi inviare e ricevere compiti perso
 
 ## ℹ️ Come si usa?
 Al primo avvio dell'applicazione ti verrà chiesto di:
-- Definire il percorso del database di riferimento selezionando:
-  - Il file del database, se ne esiste già uno,
-  - Oppure, in caso contrario, la cartella in cui creare il nuovo database.
+
+- Definire il percorso del database di riferimento selezionando:  
+  - Il file del database, se ne esiste già uno,  
+  - Oppure, in caso contrario, la cartella in cui creare il nuovo database.     
 - Inserire le credenziali di accesso, se sei già registrato, oppure i dati per registrarti come nuovo utente.
 
 Dopo la configurazione del percorso e l'accesso, viene creato un file di configurazione **config.json**, utile per mantenere l'accesso senza la necessità di reinserire le credenziali nei successivi avvii.
 
 ## 🖥 Struttura dell'interfaccia
-L'interfaccia principale è suddivisa in tre sezioni verticali:
+L'interfaccia principale è suddivisa in **tre** sezioni verticali:
 
 ### 1️⃣ Gestione corrispondenza
 - Seleziona per visualizzare il riepilogo della corrispondenza dei tuoi compiti personali o dei compiti assegnati agli utenti registrati.
@@ -83,16 +83,16 @@ Contiene le informazioni del compito selezionato oppure da compilare per l'invio
 
 I dettagli modificabili nel **pannello dei dettagli del compito** riguardano:  
 
-- **Per i compiti ricevuti** → Impostazione della data e dell'ora prevista per il completamento, con la possibilità di spuntare il completamento del compito e, eventualmente, lasciare una risposta al responsabile.  
+- **Per i compiti ricevuti** → Impostazione della data e dell'ora **prevista** per il completamento, con la possibilità di **spuntare il completamento** del compito e, eventualmente, lasciare una **risposta** al responsabile.  
 
-- **Per i compiti inviati** → Inserimento obbligatorio del titolo, della descrizione, della data e dell'ora di scadenza per il completamento del compito, con la possibilità di **contrassegnarlo** o **archiviarlo**, ove necessario.  
+- **Per i compiti inviati** → Inserimento del **titolo** (obbligatorio), della **descrizione**, della data e dell'ora di **scadenza** per il completamento del compito, con la possibilità di **contrassegnare** o **archiviare** il compito, ove necessario.  
 
 - I dettagli modificabili per i compiti da inviare nuovi sono gli stessi di quelli già inviati, **ad eccezione** della possibilità di impostare la data e l'ora prevista per il completamento come suggerimento per l'utente destinatario.
 - Per i compiti da inviare, **di default viene impostata la data e l'ora del mezzogiorno lavorativo successivo**.
 
 #### 🔄 Aggiornamento dettagli:
 - Tutti i dettagli possono essere aggiornati in qualsiasi momento, in base alle competenze dell'utente.
-- La **data e l'ora di scadenza** o di completamento prevista verranno evidenziate in **rosso** se:
+- La **data e l'ora di scadenza** verranno evidenziate in **rosso** se:
   - Il giorno cade di **sabato, domenica o festivo nazionale**
   - L'orario è **fuori dagli orari lavorativi aziendali** (9:00 - 18:59)
 
