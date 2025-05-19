@@ -46,8 +46,8 @@ L'interfaccia principale è suddivisa in **tre** sezioni verticali:
   - **Note sullo stato del compito**
 
 #### 📌 Ordinamento dei compiti:
-- Generalmente, i compiti sono ordinati in base alla data dell'ultima modifica (dal più recente al più lontano).
-- I compiti **scaduti** vengono invece ordinati per data di scadenza (dal più lontano al più recente).
+- Generalmente, i compiti sono ordinati in base alla **data dell'ultima modifica** (dal più recente al più lontano).
+- I compiti **scaduti** vengono invece ordinati per **data di scadenza** (dal più lontano al più recente).
 
 #### 🎨 Colorazione dello stato del compito:
 - **Grigio** → Archiviato
@@ -57,7 +57,7 @@ L'interfaccia principale è suddivisa in **tre** sezioni verticali:
 - **Verde** → In progress
 
 - Lo stato del compito è indicato anche nella colonna **Note**.
-- Se un compito è in più stati contemporaneamente (es. fatto e archiviato), viene associato al colore di priorità superiore.
+- Se un compito è in più stati contemporaneamente (es. fatto e archiviato), viene associato al colore di **priorità superiore**.
 
 ### 3️⃣ Pannello dettagli
 Contiene le informazioni del compito selezionato oppure da compilare per l'invio:
