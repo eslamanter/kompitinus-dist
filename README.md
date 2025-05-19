@@ -99,6 +99,7 @@ I dettagli modificabili nel **pannello dei dettagli del compito** riguardano:
 ## 🏷 Barra dei comandi (in alto)
 - **Utente > Dati Utente** → Visualizza e modifica i dati utente (nome, cognome, email, PIN)
   - L'indirizzo email modificato **non deve coincidere con un altro già registrato**.
+  - Nel caso di **modifica**, è necessario **riavviare** l'applicazione per aggiornare i dati personali che compaiano nella sezione **Gestione corrispondenza**.
   
 - **Esporta > Contrassegnati** → Genera report Excel (`report.xlsx`) con i compiti non archiviati, contrassegnati da tutti gli utenti registrati. Il report include:
   - **ID del compito**
