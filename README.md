@@ -15,7 +15,7 @@ Al primo avvio dell'applicazione ti verrà chiesto di:
 - Definire il **percorso del database** di riferimento selezionando:  
   - Il file del database, se ne **esiste** già uno,  
   - Oppure, in caso contrario, la cartella in cui creare il **nuovo database**.     
-- Inserire le **credenziali di accesso** (email e PIN) se sei già registrato, oppure fornire i dati necessari per la **registrazione** (nome, cognome, email e PIN da 4 cifre) come **nuovo utente**.
+- Inserire le **credenziali di accesso** (email e PIN) se sei già registrato, oppure fornire i dati necessari per la **registrazione** (nome, cognome, email e PIN di 4 cifre) come **nuovo utente**.
 
 Dopo la configurazione del percorso e l'accesso, viene creato un file di configurazione **config.json**, utile per mantenere l'accesso senza la necessità di reinserire le credenziali nei successivi avvii.
 
