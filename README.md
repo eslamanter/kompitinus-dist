@@ -12,10 +12,10 @@ Questa applicazione crea e gestisce un **database locale condiviso**, offrendo u
 ## ℹ️ Come si usa?
 Al primo avvio dell'applicazione ti verrà chiesto di:
 
-- Definire il percorso del database di riferimento selezionando:  
-  - Il file del database, se ne esiste già uno,  
-  - Oppure, in caso contrario, la cartella in cui creare il nuovo database.     
-- Inserire le credenziali di accesso, se sei già registrato, oppure i dati per registrarti come nuovo utente.
+- Definire il **percorso del database** di riferimento selezionando:  
+  - Il file del database, se ne **esiste** già uno,  
+  - Oppure, in caso contrario, la cartella in cui creare il **nuovo database**.     
+- Inserire le **credenziali di accesso** (email e PIN) se sei già registrato, oppure fornire i dati necessari per la **registrazione** (nome, cognome, email e PIN da 4 cifre) come **nuovo utente**.
 
 Dopo la configurazione del percorso e l'accesso, viene creato un file di configurazione **config.json**, utile per mantenere l'accesso senza la necessità di reinserire le credenziali nei successivi avvii.
 
@@ -100,7 +100,7 @@ I dettagli modificabili nel **pannello dei dettagli del compito** riguardano:
 - **Utente > Dati Utente** → Visualizza e modifica i dati utente (nome, cognome, email, PIN)
   - L'indirizzo email modificato **non deve coincidere con un altro già registrato**.
   
-- **Esporta > Contrassegnati** → Genera report Excel (`report.xlsx`) contenente:
+- **Esporta > Contrassegnati** → Genera report Excel (`report.xlsx`) con i compiti non archiviati, contrassegnati da tutti gli utenti registrati. Il report include:
   - **ID del compito**
   - **Ultima modifica**
   - **Nome e cognome del responsabile**
