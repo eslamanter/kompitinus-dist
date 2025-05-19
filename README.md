@@ -1,7 +1,7 @@
 # Kompitìnus
 
 ## 📌 Cos'è?
-Questa applicazione crea e gestisce un **database locale condiviso**, offrendo un'interfaccia per **organizzare**, **analizzare** e **condividere** i **compiti lavorativi** con **trasparenza**, nel rispetto delle regole aziendali. Permette di impostare **priorità** con **scadenze flessibili**, indicando i giorni mancanti o scaduti. Gli utenti autenticati possono consultare **il titolo** e **la scadenza** dei compiti assegnati agli altri, con la possibilità di **esportare report** riepilogativi dei compiti contrassegnati.  
+Questa applicazione crea e gestisce un **database locale condiviso**, offrendo un'interfaccia per **organizzare**, **analizzare** e **condividere** i **compiti lavorativi** con **trasparenza**, nel rispetto delle regole aziendali. Permette di impostare **priorità** con **scadenze flessibili**, indicando i **giorni mancanti** o **scaduti**. Gli utenti autenticati possono consultare **il titolo** e **la scadenza** dei **compiti assegnati agli altri**, con la possibilità di **esportare report** riepilogativi dei **compiti contrassegnati**.  
 
 ## ✨ Funzionalità
 ✅ **Gestione dei compiti**: Invia, ricevi, visualizza e aggiorna i compiti personali che hai assegnato o che ti sono stati assegnati.  
