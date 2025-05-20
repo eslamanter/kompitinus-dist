@@ -59,14 +59,14 @@ L'interfaccia principale è suddivisa in **tre** sezioni verticali:
 - Lo stato del compito è indicato anche nella colonna **Note**.
 - Se un compito è in più stati contemporaneamente (es. fatto e archiviato), viene associato al colore di **priorità superiore**.
 
-### 3️⃣ Pannello dettagli
-Contiene le informazioni del compito selezionato oppure da compilare per l'invio:
-- **Titolo** (max 160 caratteri)
-- **Descrizione**
-- **Riferimento** locale (es. percorso cartella) o esterno (es. link web)
-- **Data di scadenza** impostata dal responsabile
-- **Data prevista** dall'utente incaricato per il completamento del compito
-- **Risposta** dell'utente incaricato
+### 3️⃣ Pannello dettagli  
+Contiene le informazioni del compito selezionato oppure da compilare per l'invio:  
+- **Titolo** (max 160 caratteri)  
+- **Descrizione**  
+- **Riferimento** locale (es. percorso cartella) o esterno (es. link web)  
+- **Data di scadenza** impostata dal responsabile  
+- **Data prevista** dall'utente incaricato per il completamento del compito   
+- **Risposta** dell'utente incaricato  
 
 #### 🛠 Opzioni disponibili nel tasto `(...)` accanto al riferimento:
 - **Seleziona cartella** → Apri dialogo di selezione
@@ -99,7 +99,6 @@ I dettagli modificabili nel **pannello dei dettagli del compito** riguardano:
 ## 🏷 Barra dei comandi (in alto)
 - **Utente > Dati Utente** → Visualizza e modifica i dati utente (nome, cognome, email, PIN)
   - L'indirizzo email modificato **non deve coincidere con un altro già registrato**.
-  - Nel caso di **modifica**, è necessario **riavviare** l'applicazione per aggiornare i dati personali che compaiano nella sezione **Gestione corrispondenza**.
   
 - **Esporta > Contrassegnati** → Genera report Excel (`report.xlsx`) con i compiti non archiviati, contrassegnati da tutti gli utenti registrati. Il report include:
   - **ID del compito**
