@@ -61,6 +61,8 @@ L'interfaccia principale è suddivisa in **tre** sezioni verticali:
 
 ### 3️⃣ Pannello dettagli  
 Contiene le informazioni del compito selezionato oppure da compilare per l'invio:  
+- **Nome e mail** del **responsabile** e dell'**incaricato**  
+  - Il link della mail reindirizza all'invio di una nuova email con l'app di posta predefinita  
 - **Titolo** (max 160 caratteri)  
 - **Descrizione**  
 - **Riferimento** locale (es. percorso cartella) o esterno (es. link web)  
@@ -129,3 +131,6 @@ I dettagli modificabili nel **pannello dei dettagli del compito** riguardano:
 Per suggerimenti, domande o supporto, contatta **eslam.anter@outlook.com**  
 Scopri il repository di distribuzione su GitHub **https://github.com/eslamanter/kompitinus-ita/** per gli aggiornamenti.  
 
+---
+V.1.0 Beta
+20/05/2025
