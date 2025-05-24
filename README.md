@@ -49,16 +49,16 @@ L'interfaccia principale è suddivisa in **tre** sezioni verticali:
 - Generalmente, i compiti sono ordinati in base alla **data dell'ultima modifica** (dal più recente al più lontano).
 - I compiti **scaduti** vengono invece ordinati per **data di scadenza** (dal più lontano al più recente).
 
-#### 🎨 Colorazione dello stato del compito:
-- **Grigio** → Archiviato
-- **Blu** → Fatto
-- **Rosso** → Scaduto & Contrassegnato
-- **Arancione** → Scaduto
+#### 🎨 Colorazione dello stato del compito:  
+- **Grigio** → Archiviato  
+- **Blu** → Fatto  
+- **Rosso** → Scaduto & Contrassegnato  
+- **Arancione** → Scaduto  
 - **Verde** → In progress
 
-  - Lo stato del compito è indicato anche nella colonna **Note**.  
-  - Se un compito si trova in più stati contemporaneamente (es. fatto e archiviato), viene associato al colore di **priorità superiore**.  
-  - I compiti aggiornati dopo l'**ultima chiusura** dell'app vengono visualizzati in **grassetto**.  
+- Lo stato del compito è indicato anche nella colonna **Note**.
+- Se un compito si trova in più stati contemporaneamente (es. fatto e archiviato), viene associato al colore di **priorità superiore**.
+- I compiti aggiornati dopo l'**ultima chiusura** dell'app vengono visualizzati in **grassetto**.  
 
 ### 3️⃣ Pannello dettagli  
 Contiene le informazioni del compito selezionato oppure da compilare per l'invio:  
