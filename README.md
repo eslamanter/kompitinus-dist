@@ -57,7 +57,8 @@ L'interfaccia principale è suddivisa in **tre** sezioni verticali:
 - **Verde** → In progress
 
 - Lo stato del compito è indicato anche nella colonna **Note**.
-- Se un compito è in più stati contemporaneamente (es. fatto e archiviato), viene associato al colore di **priorità superiore**.
+- Se un compito si trova in più stati contemporaneamente (es. fatto e archiviato), viene associato al colore di **priorità superiore**.
+- I compiti aggiornati dopo l'**ultima chiusura** dell'app vengono visualizzati in **grassetto**.
 
 ### 3️⃣ Pannello dettagli  
 Contiene le informazioni del compito selezionato oppure da compilare per l'invio:  
