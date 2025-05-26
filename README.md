@@ -133,5 +133,5 @@ Per suggerimenti, domande o supporto, contatta **eslam.anter@outlook.com**
 Scopri il repository di distribuzione su GitHub **https://github.com/eslamanter/kompitinus-ita/** per gli aggiornamenti.  
 
 ---
-V.1.0 Beta
-20/05/2025
+V.1.0
+22/05/2025
